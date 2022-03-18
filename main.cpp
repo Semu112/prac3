@@ -14,6 +14,7 @@ int main(void){
     std::srand(time(NULL));
 
     Tournament tourney;
+    
     RandomComputer randComp;
     RandomComputer randComp1;
     Avalanche avalanche;
