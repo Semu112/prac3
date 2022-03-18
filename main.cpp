@@ -21,7 +21,7 @@ int main(void){
     Bureaucrat bureaucrat;
     Crescendo crescendo;
     PaperDoll paperDoll;
-    FistFullODollars fistFullODollars;
+    FistfullODollars fistFullODollars;
 
     std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &bureaucrat, &crescendo, &paperDoll, &fistFullODollars};
 

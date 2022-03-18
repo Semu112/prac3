@@ -1,5 +1,5 @@
-#include "FistFullODollars.h"
+#include "FistfullODollars.h"
 
-FistFullODollars::FistFullODollars(){
+FistfullODollars::FistfullODollars(){
     orderedArray = {'R', 'P', 'P'};
 }
