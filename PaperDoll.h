@@ -1,12 +1,16 @@
 #ifndef PAPERDOLL_H
 #define PAPERDOLL_H
 
-#include "RotatingMover.h"
+#include "Player.h"
 
-class PaperDoll : public RotatingMover{
+class PaperDoll{
 
     public:
         PaperDoll();
+
+    protected:
+        int amtOfMovesTaken = 0;
+        std::array<char, 3> orderedArray;
 
 };
 

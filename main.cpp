@@ -4,7 +4,7 @@
 #include "Bureaucrat.h"
 #include "Crescendo.h"
 #include "PaperDoll.h"
-#include "FistFullODollars.h"
+#include "FistfullODollars.h"
 #include "Tournament.h"
 
 #include<iostream>
@@ -14,7 +14,7 @@ int main(void){
     std::srand(time(NULL));
 
     Tournament tourney;
-    
+
     RandomComputer randComp;
     RandomComputer randComp1;
     Avalanche avalanche;
@@ -22,9 +22,9 @@ int main(void){
     Bureaucrat bureaucrat;
     Crescendo crescendo;
     PaperDoll paperDoll;
-    FistfullODollars fistFullODollars;
+    FistfullODollars fistfullODollars;
 
-    std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &bureaucrat, &crescendo, &paperDoll, &fistFullODollars};
+    std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &randComp, &randComp1, &avalanche, &toolbox};
 
     tourney.run(competitors);
 

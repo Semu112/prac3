@@ -1,12 +1,16 @@
 #ifndef CRESCENDO_H
 #define CRESCENDO_H
 
-#include "RotatingMover.h"
+#include "Player.h"
 
-class Crescendo : public RotatingMover{
+class Crescendo{
 
     public:
         Crescendo();
+
+    protected:
+        int amtOfMovesTaken = 0;
+        std::array<char, 3> orderedArray;
 };
 
 #endif
