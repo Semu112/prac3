@@ -15,7 +15,7 @@ Player* Tournament::run(std::array<Player*, 8> competitors){
     Player* winner[1];
 
     //"round" array contains all the players in each round
-    Player*** round;
+    Player** round[4];
     round[0] = roundOne;
         for(int i = 0; i<8; i++){
             round[0][i] = competitors[i];
