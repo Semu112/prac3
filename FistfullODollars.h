@@ -3,10 +3,11 @@
 
 #include "Player.h"
 
-class FistfullODollars{
+class FistfullODollars : public Player{
 
     public:
         FistfullODollars();
+        void makeMove();
 
     protected:
         int amtOfMovesTaken = 0;

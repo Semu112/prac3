@@ -3,10 +3,11 @@
 
 #include "Player.h"
 
-class Crescendo{
+class Crescendo : public Player{
 
     public:
         Crescendo();
+        void makeMove();
 
     protected:
         int amtOfMovesTaken = 0;

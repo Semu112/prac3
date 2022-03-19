@@ -24,7 +24,7 @@ int main(void){
     PaperDoll paperDoll;
     FistfullODollars fistfullODollars;
 
-    std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &randComp, &randComp1, &avalanche, &toolbox};
+    std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &randComp, &fistfullODollars, &paperDoll, &crescendo};
 
     tourney.run(competitors);
 
