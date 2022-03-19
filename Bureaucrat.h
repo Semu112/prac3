@@ -6,6 +6,7 @@
 class Bureaucrat : public Player{
 
     public:
+        Bureaucrat();
         virtual void makeMove();
 };
 

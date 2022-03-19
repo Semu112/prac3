@@ -6,6 +6,8 @@
 class Toolbox : public Player{
 
     public:
+
+        Toolbox();
         virtual void makeMove();
 };
 

@@ -15,18 +15,22 @@ int main(void){
 
     Tournament tourney;
 
-    RandomComputer randComp;
-    RandomComputer randComp1;
     Avalanche avalanche;
     Toolbox toolbox;
+    Toolbox toolbox1;
     Bureaucrat bureaucrat;
+    Bureaucrat bureaucrat1;
     Crescendo crescendo;
-    PaperDoll paperDoll;
+    Crescendo crescendo1;
     FistfullODollars fistfullODollars;
 
-    std::array<Player*, 8> competitors = {&randComp, &randComp1, &avalanche, &toolbox, &randComp, &fistfullODollars, &paperDoll, &crescendo};
+    std::array<Player*, 8> competitors = {&avalanche, &bureaucrat, &bureaucrat1, &toolbox, &toolbox1, &crescendo, &crescendo1, &fistfullODollars};
 
-    tourney.run(competitors);
+    std::cout << avalanche.name;
+
+    Player* winner = tourney.run(competitors);
+
+    std::cout << winner->name;
 
     return 0;
 }

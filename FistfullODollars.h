@@ -9,6 +9,7 @@ class FistfullODollars : public Player{
         FistfullODollars();
         void makeMove();
 
+
     protected:
         int amtOfMovesTaken = 0;
         std::array<char, 3> orderedArray;

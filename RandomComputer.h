@@ -10,6 +10,8 @@
 class RandomComputer : public Player{
 
     public:
+
+        RandomComputer();
         virtual void makeMove();
 
     private: 
